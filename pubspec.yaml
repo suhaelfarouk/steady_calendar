@@ -12,17 +12,26 @@ dependencies:
   flutter_dotenv: ^5.0.2
   cached_network_image: ^3.2.3
   supabase_flutter: ^1.5.0
+  json_annotation: ^4.8.0
+  intl: ^0.18.0
+  table_calendar: ^3.0.9
+  provider: ^6.0.5
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  integration_test:
+    sdk: flutter
   flutter_lints: ^2.0.0
+  json_serializable: ^6.6.1
+  build_runner: ^2.3.3
   
 
 flutter:
   uses-material-design: true
   assets:
     - .env
+    - .env.test
     - assets/images/
     - assets/icons/
   fonts:
